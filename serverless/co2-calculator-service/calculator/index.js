@@ -39,16 +39,16 @@ module.exports.calculator = async (litre, tanks, country, blendPercent) => {
       },
       parametros: {
         gasolina: {
-          itensidade_carbono: 0,
-          conteudo_energetico: 0
+          itensidade_carbono: 90,
+          conteudo_energetico: 32.30869824
         },
         etanol_anidro: {
-          itensidade_carbono: 0,
-          conteudo_energetico: 0
+          itensidade_carbono: 28,
+          conteudo_energetico: 22.3543719
         },
         etanol_hidratado: {
-          itensidade_carbono: 0,
-          conteudo_energetico: 0
+          itensidade_carbono: 28,
+          conteudo_energetico: 21.34
         },
         preco_cbio: 30 / 5.35
       }

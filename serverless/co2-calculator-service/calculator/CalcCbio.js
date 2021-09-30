@@ -1,5 +1,5 @@
 /* eslint-disable space-before-function-paren */
-class calcCbio {
+class CalcCbio {
   constructor(litre, tanks, country, blendPercent) {
     this.litre = litre
     this.tanks = tanks
@@ -141,4 +141,4 @@ const countryBlend = (country) => {
   return blendPercent
 }
 
-export { calcCbio }
+module.exports = CalcCbio
